@@ -58,3 +58,12 @@ __git clone "깃허브 레포지토리 url" : 해당 원격 저장소에 있는 
 ## ⭐commit 하기전에 꼭 pull 을 통해서 원격 레포지토리와 로컬 레포지토리의 정보를 최신화⭐
 
 __git pull origin master : 원격 저장소의 내용 현재 로컬 저장소로 가져와서 최신화 하기__
+
+1. git init
+2. git add . (모든 파일 버전 관리)
+3. git commit -m "커밋 메시지"
+4. github에서 레포지토리 만들기(README.md 만들지 않기)
+5. git remote add origin "github_repo_url"
+6. git push origin master
+
+만약 잘 안되면 폴더 안에있는 .git 폴더 삭제 한후에 다시해보기(제일 간단한 방법)
