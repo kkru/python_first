@@ -29,5 +29,23 @@ __git config --global user.email "깃허브email"__
 
 __README.md__
 
+__git add . : 현재 작업영역의 모든 파일 staging area에 올리기__
 
+__git commit -m "커밋 메시지" : staging area에 있는 관리 대상 파일 모두 commit, -m은 메시지를 남길수 있는 옵션입니다.__
+
+__git remote add origin "깃허브 레포지토리 url" : 어떤 원격 저장소에 깃 작업을 할건지 등록__
+
+__git push origin master : 내가 지금까지 커밋한 내용(파일들) 원격 저장소에 업데이트__
+
+git 인증 방법 : settings => developer settings => personal aceess tokens 가서 토큰 발급받기
+
+(웹으로 인증하라고 알림이 뜰시엔 초록색 버튼 누르면 인증 완료)
+
+발급한 토큰은 다시 볼수 없으므로 꼭 메모장 같은곳에 저장하기!
+
+expiration date : 토큰의 만료 기간
+
+권한 설정 : repo 부분만 체크 (저장소 관련 권한)
+
+__git clone "깃허브 레포지토리 url" : 해당 원격 저장소에 있는 파일들 현재 작업 영역으로 복사__
 
