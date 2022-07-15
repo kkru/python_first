@@ -27,7 +27,13 @@ __git config --global user.email "깃허브email"__
 
 ###### --global 옵션은 전역으로 설정하겠다는 뜻입니다.(현재 작업영역 외에서도 똑같이 사용)
 
-__README.md__
+2. git add . (모든 파일 버전 관리)
+3. git commit -m "커밋 메시지"
+4. github에서 레포지토리 만들기(README.md 만들지 않기)
+5. git remote add origin "github_repo_url"
+6. git push origin master
+
+만약 잘 안되면 폴더 안에있는 .git 폴더 삭제 한후에 다시해보기(제일 간단한 방법)
 
 __git add . : 현재 작업영역의 모든 파일 staging area에 올리기__
 
