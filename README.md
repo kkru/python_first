@@ -69,3 +69,6 @@ __git pull origin master : 원격 저장소의 내용 현재 로컬 저장소로
 6. git push origin master
 
 만약 잘 안되면 폴더 안에있는 .git 폴더 삭제 한후에 다시해보기(제일 간단한 방법)
+
+인증 문제 발생시 : 저장된 사용자 인증 정보 초기화  
+git config --system --unset credential.helper
